@@ -1,2 +1,2 @@
-# Introdusción a la Programación
-Código de la clase de Introducción a la programación.
+# Introducción a la Programación
+Código de la clase de *introducción a la programación.
