@@ -13,12 +13,13 @@ int main () {
         scanf("%d", &n);
     } while (n <= 3);
     //---------------------------------------
-    for (k = 1, cont = 0; k <= n; k = k + 1)
+    for (k = 1, cont = 0; k <= n; k = k + 1) //Este ciclo determina si el número es divisible, asigna cont = 2 si es primo.
     {
         if(n % k == 0)
         {
-            cont = cont + 1; //Cada vez que 'n' puede ser dividido con residuo 0, se agrega 1 al contador.
-        }                    //Si 'n' es primo esto sucederá sólo 2 veces, sino ocurrirá más veces.
+            cont = cont + 1;
+            //Cada vez que 'n' puede ser dividido con residuo 0, se agrega 1 al contador. Si 'n' es primo esto sucederá sólo 2 veces, sino ocurrirá más veces.
+        }
     }
     //---------------------------------------
     if(cont == 2) //Siendo k='1' y k='n' esas 2 veces que el modulo de n es cero.

@@ -6,7 +6,7 @@ int main()
 {
   int tam, i, j;
 
-  char palabra[50], caracter;
+  char palabra[50], caracter;//La cadena se establece con la palabra 'char'. También se pueden definir cadenas con la palabra 'string', la diferencia radica en que 'char', es para cadenas de un solo caracter, y 'string'
   printf("\nEste programa recibe una oracion de máximo 51 caracteres y la devuelve invertida.\n");
   gets(palabra);
 
